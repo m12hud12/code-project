@@ -40,4 +40,3 @@
 - 🌱 Sedang memperdalam bahasa C++, C#, dan eksplorasi menggunakan Godot Engine.
 - 🎮 Di waktu luang, saya biasanya bermain Stardew Valley, Sekiro, atau melihat-lihat aksesori *mechanical keyboard* dan *gaming gear*.
 - 📺 Tontonan favorit saat bersantai: *Frieren* dan *Haikyu*.
-- 📫 Cara menghubungi saya: [Masukkan Email / Link LinkedIn Anda di sini]
