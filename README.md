@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20there,%20I'm%20Hud!&fontSize=50&animation=fadeIn" />
 </p>
 <p align="center">
-  <img src="frieren-banner.png" alt="Frieren Banner" width="100%" style="border-radius: 15px;" />
+  <img src="[https://media.tenor.com/X-2s7nJ-cT0AAAAC/frieren-sousou-no-frieren.gif](https://i.pinimg.com/736x/e4/4f/39/e44f39fc4bccfec373eb6ae4ea3cb9e5.jpg)" alt="Frieren" width="100%" style="border-radius: 15px;" />
 </p>
 
 <p align="center">
