@@ -1,27 +1,43 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20there,%20I'm%20Hud!&fontSize=50&animation=fadeIn" />
-</p>
-<p align="center">
-  <img src="[https://media.tenor.com/X-2s7nJ-cT0AAAAC/frieren-sousou-no-frieren.gif](https://i.pinimg.com/736x/e4/4f/39/e44f39fc4bccfec373eb6ae4ea3cb9e5.jpg)" alt="Frieren" width="100%" style="border-radius: 15px;" />
+  <img src="standard.gif" alt="standard" width="100%" style="border-radius: 15px;" />
 </p>
 
 <p align="center">
   <em>Seorang pengembang perangkat lunak yang antusias mengeksplorasi kode dan teknologi baru.</em>
 </p>
+
+---
+
 ### 🛠️ Tech Stack & Tools
-<p align="left">
-  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" alt="LaTeX"/>
-  <img src="https://img.shields.io/badge/github%20copilot-121011?style=for-the-badge&logo=github%20copilot&logoColor=white" alt="GitHub Copilot"/>
-</p>
-### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m12hud12&show_icons=true&theme=tokyonight" alt="m12hud12's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=m12hud12&theme=tokyonight" alt="m12hud12's Streak" width="48%"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot"/>
+  <img src="https://img.shields.io/badge/AI-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="AI"/>
 </p>
+
+---
+
+### 📊 GitHub Stats & Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m12hud12&layout=compact&theme=tokyonight&hide_border=true&title_color=7aa2f7&langs_count=2&hide=c++,html,css,python" alt="Top Languages Statbar" width="100%"/>
+</p>
+
+### 🏆 GitHub Achievements & Streak
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=m12hud12&theme=tokyonight&margin-w=15&margin-h=15&no-frame=true&column=6" alt="Trophies" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=m12hud12&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Streak" width="100%"/>
+</p>
+
+---
+
 ### ⚡ About Me
-- 🔭 Saat ini sedang mengerjakan berbagai *project* pengembangan perangkat lunak.
-- 🌱 Sedang fokus mendalami struktur data, algoritma, dan *problem solving*.
-- 🎮 Di waktu luang, saya biasanya bermain *game* kompetitif atau merakit setup periferal *gaming*.
-- 📺 Tontonan saat bersantai: *Haikyu* & berbagai seri anime seru lainnya.
-- 📫 Cara menghubungi saya: [Masukkan Link LinkedIn / Email Anda di sini]
+- 🔭 Saat ini sedang fokus pada pengembangan perangkat lunak dan pembuatan *game*.
+- 🌱 Sedang memperdalam bahasa C++, C#, dan eksplorasi menggunakan Godot Engine.
+- 🎮 Di waktu luang, saya biasanya bermain Stardew Valley, Sekiro, atau melihat-lihat aksesori *mechanical keyboard* dan *gaming gear*.
+- 📺 Tontonan favorit saat bersantai: *Frieren* dan *Haikyu*.
+- 📫 Cara menghubungi saya: [Masukkan Email / Link LinkedIn Anda di sini]
