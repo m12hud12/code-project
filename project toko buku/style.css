@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, sans-serif;
+  background: #434b91;
+  margin: 0;
+  color: #2b2b2b;
+}
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #0001;
+}
+h1 {
+  margin: 0 0 4px;
+  font-family: Monospace,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.sub,
+.note {
+  color: #666;
+}
+.note {
+  font-size: 0.9em;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 0.9em;
+  gap: 4px;
+}
+input,
+select {
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #8b5e3c;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+th {
+  background: #8b5e3c;
+  color: #fff;
+}
+.qty {
+  width: 70px;
+}
+.tag {
+  background: #f0e4d4;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+.ringkas {
+  background: #f0e4d4;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+button {
+  background: #8b5e3c;
+  color: #fff;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+button:hover {
+  background: #6f4a2e;
+}
+.alert {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+.error {
+  background: #fde8e8;
+  color: #a12;
+}
+.success {
+  background: #e3f6e8;
+  color: #165;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 12px;
+}
+.card {
+  border: 1px solid #e5d9c8;
+  border-radius: 8px;
+  padding: 12px;
+}
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tabel katalog dengan scroll + header tetap */
+.tabel-scroll {
+  max-height: 340px;
+  overflow-y: auto;
+  border: 1px solid #eadfce;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+.tabel-scroll table {
+  margin: 0;
+}
+.tabel-scroll th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/* Rekomendasi di form */
+.rekom-box {
+  background: #faf5ec;
+  border: 1px dashed #c9a97f;
+  border-radius: 8px;
+  padding: 4px 14px 14px;
+  margin-top: 16px;
+}
+.btn-kecil {
+  padding: 5px 12px;
+  font-size: 0.85em;
+  margin-top: 8px;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Ucapan terima kasih di dashboard */
+.terima-kasih {
+  background: #e3f6e8;
+  border-left: 5px solid #2e8b57;
+  border-radius: 8px;
+  padding: 6px 18px 14px;
+  margin: 18px 0;
+}
+.terima-kasih h3 {
+  margin-bottom: 6px;
+}
+.terima-kasih p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Login, navbar, admin */
+.sempit {
+  max-width: 520px;
+  margin-top:30px;
+}
+.kolom {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 16px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: #f0e4d4;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 0.9em;
+}
+.navbar a {
+  margin-left: 12px;
+}
+.badge {
+  background: #8b5e3c;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+.stat {
+  background: #faf5ec;
+  border: 1px solid #eadfce;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.85em;
+  color: #666;
+}
+.stat b {
+  display: block;
+  font-size: 1.3em;
+  color: #2b2b2b;
+  margin-bottom: 2px;
+}
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+.inline-form input {
+  flex: 1;
+  min-width: 120px;
+}
+.btn-danger {
+  background: #b3261e;
+  margin-top: 0;
+}
+.btn-danger:hover {
+  background: #8c1d18;
+}
+
+/* Stok, status pesanan, batal & retur */
+.tag.habis {
+  background: #fde8e8;
+  color: #a12;
+}
+.tag.menipis {
+  background: #fff1d6;
+  color: #8a5a00;
+}
+.badge-status {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+  background: #eee;
+}
+.st-diproses {
+  background: #dbeafe;
+  color: #1e40af;
+}
+.st-dikirim {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+.st-selesai {
+  background: #dcfce7;
+  color: #166534;
+}
+.st-dibatalkan {
+  background: #fee2e2;
+  color: #991b1b;
+}
+.st-retur_diajukan {
+  background: #ffedd5;
+  color: #9a3412;
+}
+.st-retur_disetujui {
+  background: #e5e7eb;
+  color: #374151;
+}
+.st-retur_ditolak {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+.aksi-pesanan {
+  border: 1px dashed #d9a5a0;
+  background: #fff7f6;
+  border-radius: 8px;
+  padding: 4px 16px 14px;
+  margin: 16px 0;
+}
+.alert.info {
+  background: #e8f1fd;
+  color: #1e40af;
+}
+.stok-form {
+  display: flex;
+  gap: 6px;
+}
+.stok-form input {
+  width: 70px;
+}
+.aksi-sel form {
+  display: inline-block;
+  margin: 0 4px 4px 0;
+}
