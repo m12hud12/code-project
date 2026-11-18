@@ -1,4 +1,4 @@
-# Toko Buku Online (PHP + MySQL) - Versi Final
+# Toko Buku Online (PHP + MySQL)
 
 Sistem pendaftaran akun & penjualan buku dengan login User/Admin, stok buku,
 pembatalan pesanan, dan retur.
